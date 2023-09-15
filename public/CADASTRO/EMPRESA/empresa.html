@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Empresa</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <main>
+            <div class="text">
+                <img src="IMAGES/nequa-removebg-preview (1).png" class="logo">
+                <h1>Sign up for <span class="nequa">Nequa</span></h1>
+            </div>
+            <div class="div">
+                <form method="post" action="cadastroE.php" class="container">
+                    <span class="hover">Criando uma conta como <strong class="empresa">Empresa</strong></span>
+                    <div class="first-division">
+                        <input tygbpe="text" name="nome" placeholder="Nome" required><br>
+                        <input type="email" name="email" placeholder="E-mail" required><br>
+                        <input id="telefone" type="text" name="telefone" placeholder="Telefone" maxlength="15" required onkeypress="onlyNumbers(event)">
+                    </div>
+
+
+                    <div class="second-division">
+                        <input type="text" name="cidade" placeholder="Cidade" required><br>
+                        <input type="text" name="estado" placeholder="Estado" required><br>
+                        <input type="text" name="endereco" placeholder="Endereço" required><br>
+                    </div>
+
+                    <div class="third-division">
+                        <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ" onkeypress="onlyNumbers(event)" required><br>
+                        <input type="password" name="senha" placeholder="Senha" maxlength="16" minlength="8" required><br>
+                        <input type="password" name="confirmar_senha" placeholder="Confirme sua senha" maxlength="16" minlength="8" required><br>
+                    </div>
+                    <button class="glow-on-hover" type="submit">Cadastrar</button>
+
+                    <span class="teste">Clique aqui para criar uma conta como <br>
+                        <a href="../PESSOA/pessoa.html" class="eita">Pessoa</a>
+                    </span><br>
+                    
+                    <span class="possui-login">Já possui uma conta? <a href="../../LOGIN/index.html">Faça login aqui</a></span>
+                    
+                </form>
+
+            </div>
+    </main>
+</body>
+</html>

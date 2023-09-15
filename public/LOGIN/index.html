@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="login.php" method="POST" class="form">
+            <img src="IMAGES/nequa-removebg-preview (1).png" class="logo">
+            <div class="title">
+                <h1>Sign in for <span class="nequa">Nequa</span></h1>
+            </div>
+            <div class="input-container ic1">
+              <input id="email" class="input" type="email" name="email" placeholder=" " required>
+              <div class="cut"></div>
+              <label for="firstname" class="placeholder">E-mail</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="senha" class="input" type="password" name="senha" placeholder=" " required maxlength="16" minlength="8">
+              <div class="cut"></div>
+              <label for="lastname" class="placeholder">Senha</label>
+            </div>
+            <button type="submit" class="submit">Logar</button>
+            <a href="../alterarsenha.php">Alterar senha</a><br><br>
+            <span class="account">Não possui uma conta ainda? <a href="../CADASTRO/PESSOA/pessoa.html"class="signup" >Cadastre-se aqui</a></span>
+        </form>
+    </div>
+</body>
+</html>
