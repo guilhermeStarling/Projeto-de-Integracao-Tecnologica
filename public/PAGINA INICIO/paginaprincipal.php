@@ -59,6 +59,7 @@ $nomeUsuario = $_SESSION['nome_usuario'];
                 <h2 class="titulo-sec2">Usuários Mais Influentes</h2>
             </div>    
             <div id="perfil" class="btns-perfil">
+            <a href="perfil.php">Ir para o Perfil do Usuário</a>
                 <button class="perf" href="#"></button>
                 <button class="perf" href="#"></button>
                 <button class="perf" href="#"></button>
